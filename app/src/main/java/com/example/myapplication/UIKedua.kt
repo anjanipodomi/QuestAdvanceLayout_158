@@ -121,4 +121,17 @@ fun CardMenu(title: String, icon: androidx.compose.ui.graphics.vector.ImageVecto
                 .padding(horizontal = 16.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
-        )
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Icon(imageVector = icon, contentDescription = null, tint = Color.White)
+                Spacer(modifier = Modifier.width(10.dp))
+                Text(text = title, color = Color.White)
+            }
+            Icon(
+                imageVector = Icons.Default.PlayArrow,
+                contentDescription = null,
+                tint = Color.White
+            )
+        }
+    }
+}
