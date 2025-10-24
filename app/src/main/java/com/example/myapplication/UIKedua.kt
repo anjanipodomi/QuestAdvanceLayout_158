@@ -28,5 +28,17 @@ fun ProfilAnjani(modifier: Modifier = Modifier) {
             .background(Color(0xFFFDF6F6)),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top
-    )
+    ) {
+        Spacer(modifier = Modifier.height(60.dp))
+
+        Image(
+            painter = painterResource(id = R.drawable.sariii),
+            contentDescription = "Foto Profil",
+            modifier = Modifier
+                .size(100.dp)
+                .clip(CircleShape)
+        )
+
+    }
+
 }
