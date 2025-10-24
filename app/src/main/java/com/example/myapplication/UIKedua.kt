@@ -75,13 +75,20 @@ fun ProfilAnjani(modifier: Modifier = Modifier) {
             text = "Anjani Dihapsari Podomi",
             fontSize = 20.sp,
             fontWeight = FontWeight.Bold,
-            color = Color.Black // 🖤 ganti dari putih ke hitam
+            color = Color.Black
         )
         Text(
             text = "@anjanipodomiii",
             fontSize = 14.sp,
             color = Color.DarkGray
         )
+        Text(
+            text = "InsyaAllah calon orang kaya",
+            fontSize = 16.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color(0xFF3C3C3C)
+        )
+
 
 
 
