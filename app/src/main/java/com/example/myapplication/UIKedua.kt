@@ -69,6 +69,16 @@ fun ProfilAnjani(modifier: Modifier = Modifier) {
                 modifier = Modifier.size(iconSize).padding(iconPadding)
             )
         }
+        Spacer(modifier = Modifier.height(15.dp))
+
+        Text(
+            text = "Anjani Dihapsari Podomi",
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black // 🖤 ganti dari putih ke hitam
+        )
+
+
 
 
     }
