@@ -40,5 +40,16 @@ fun ActivitasPertama(modifier: Modifier) {
             colors = CardDefaults.cardColors(
                 containerColor = Color.Black
             )
+        ) {
+            Row() {
+                val gambar = painterResource(id= R.drawable.logoumy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(size= 100.dp)
+                        .padding(all= 5.dp)
+                )
+                Spacer(modifier = Modifier.width(width= 30.dp))
 
 
