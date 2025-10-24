@@ -108,4 +108,10 @@ fun ProfilAnjani(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun CardMenu(title: String, icon: androidx.compose.ui.graphics.vector.ImageVector)
+fun CardMenu(title: String, icon: androidx.compose.ui.graphics.vector.ImageVector) {
+    Card(
+        colors = CardDefaults.cardColors(containerColor = Color.Black),
+        modifier = Modifier
+            .fillMaxWidth(0.9f)
+            .height(50.dp)
+    )
