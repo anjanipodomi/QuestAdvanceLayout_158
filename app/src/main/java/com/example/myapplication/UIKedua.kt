@@ -77,6 +77,12 @@ fun ProfilAnjani(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold,
             color = Color.Black // 🖤 ganti dari putih ke hitam
         )
+        Text(
+            text = "@anjanipodomiii",
+            fontSize = 14.sp,
+            color = Color.DarkGray
+        )
+
 
 
 
