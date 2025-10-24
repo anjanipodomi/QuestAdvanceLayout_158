@@ -39,6 +39,38 @@ fun ProfilAnjani(modifier: Modifier = Modifier) {
                 .clip(CircleShape)
         )
 
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Row(
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            val iconSize = 50.dp
+            val iconPadding = 10.dp
+
+            Image(
+                painter = painterResource(id = R.drawable.logofacebook),
+                contentDescription = "Facebook",
+                modifier = Modifier.size(iconSize).padding(iconPadding)
+            )
+            Image(
+                painter = painterResource(id = R.drawable.logogoogle),
+                contentDescription = "Email",
+                modifier = Modifier.size(iconSize).padding(iconPadding)
+            )
+            Image(
+                painter = painterResource(id = R.drawable.logolinkedln),
+                contentDescription = "LinkedIn",
+                modifier = Modifier.size(iconSize).padding(iconPadding)
+            )
+            Image(
+                painter = painterResource(id = R.drawable.logo_x),
+                contentDescription = "X (Twitter)",
+                modifier = Modifier.size(iconSize).padding(iconPadding)
+            )
+        }
+
+
     }
 
 }
