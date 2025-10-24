@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     modifier = Modifier.fillMaxSize()
                 ) { innerPadding ->
-                    ProfilAnjani(modifier = Modifier.padding(innerPadding)
+                    ProfilAnjani(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
