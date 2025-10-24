@@ -105,5 +105,7 @@ fun ProfilAnjani(modifier: Modifier = Modifier) {
         )
 
     }
-
 }
+
+@Composable
+fun CardMenu(title: String, icon: androidx.compose.ui.graphics.vector.ImageVector)
