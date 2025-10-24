@@ -114,4 +114,11 @@ fun CardMenu(title: String, icon: androidx.compose.ui.graphics.vector.ImageVecto
         modifier = Modifier
             .fillMaxWidth(0.9f)
             .height(50.dp)
-    )
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        )
