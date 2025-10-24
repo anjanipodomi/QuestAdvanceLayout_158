@@ -22,4 +22,11 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun ProfilAnjani(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color(0xFFFDF6F6)),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top
+    )
 }
