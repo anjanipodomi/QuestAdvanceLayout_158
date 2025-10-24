@@ -88,11 +88,21 @@ fun ProfilAnjani(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold,
             color = Color(0xFF3C3C3C)
         )
+        Spacer(modifier = Modifier.height(20.dp))
 
+        CardMenu(title = "Privasi", icon = Icons.Default.Lock)
+        Spacer(modifier = Modifier.height(8.dp))
+        CardMenu(title = "Riwayat Transaksi", icon = Icons.Default.Refresh)
+        Spacer(modifier = Modifier.height(8.dp))
+        CardMenu(title = "Pengaturan", icon = Icons.Default.Settings)
 
+        Spacer(modifier = Modifier.height(30.dp))
 
-
-
+        Text(
+            text = "© 2025 Sari",
+            color = Color.Gray,
+            fontSize = 12.sp
+        )
 
     }
 
